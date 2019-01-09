@@ -14,10 +14,6 @@ Input                |   Output
 ## Approach & Efficiency
 The BigO is O(n) because we did a for loop, space is O(n).
 
-## Solution
-![](../../assets/array_shift.jpg)
+## Whiteboard
+![solution](assets/array_shift.jpg)
 
-## Checklist
--[x] Whiteboard
--[x] Code
--[x] Readme
