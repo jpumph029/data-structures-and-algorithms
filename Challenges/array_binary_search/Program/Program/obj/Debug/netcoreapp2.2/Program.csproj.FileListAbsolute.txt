@@ -1,0 +1,10 @@
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\bin\Debug\netcoreapp2.2\Program.deps.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\bin\Debug\netcoreapp2.2\Program.runtimeconfig.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\bin\Debug\netcoreapp2.2\Program.runtimeconfig.dev.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\bin\Debug\netcoreapp2.2\Program.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\bin\Debug\netcoreapp2.2\Program.pdb
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\obj\Debug\netcoreapp2.2\Program.csproj.CoreCompileInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\obj\Debug\netcoreapp2.2\Program.AssemblyInfoInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\obj\Debug\netcoreapp2.2\Program.AssemblyInfo.cs
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\obj\Debug\netcoreapp2.2\Program.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\Program\obj\Debug\netcoreapp2.2\Program.pdb
