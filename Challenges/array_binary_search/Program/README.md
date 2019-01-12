@@ -1,8 +1,7 @@
 # Binary Search
-https://en.wikipedia.org/wiki/Binary_search_algorithm
 
 ## Challenge
-Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
+Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the arrayâ€™s element that is equal to the search key, or -1 if the element does not exist.
 
 ## Example
 Input	Output </br>
@@ -10,4 +9,4 @@ Input	Output </br>
 [11,22,33,44,55,66,77], 90	-1 </br>
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![](../../../assets/binary_search.jpg)
