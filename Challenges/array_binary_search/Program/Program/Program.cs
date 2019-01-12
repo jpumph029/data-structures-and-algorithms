@@ -7,7 +7,7 @@ namespace Program
         static void Main(string[] args)
         {
             int[] array = new int[] { 4, 8, 15, 16, 23, 42 };
-            int key = 2;
+            int key = 8;
             int val = BinarySearch(array, key);
             Console.WriteLine(val);
             Console.Read();
@@ -21,8 +21,6 @@ namespace Program
 
             while (min <= max)
             {
-
-
                 int mid = (min + max) / 2;
 
                 if (array[mid] == key) return mid;
