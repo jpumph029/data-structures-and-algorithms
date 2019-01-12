@@ -1,0 +1,17 @@
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\array_binary_search_Tests.deps.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\array_binary_search_Tests.runtimeconfig.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\array_binary_search_Tests.runtimeconfig.dev.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\array_binary_search_Tests.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\array_binary_search_Tests.pdb
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\Program.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\bin\Debug\netcoreapp2.2\Program.pdb
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\obj\Debug\netcoreapp2.2\array_binary_search_Tests.csprojAssemblyReference.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\obj\Debug\netcoreapp2.2\array_binary_search_Tests.csproj.CoreCompileInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\obj\Debug\netcoreapp2.2\array_binary_search_Tests.AssemblyInfoInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\obj\Debug\netcoreapp2.2\array_binary_search_Tests.AssemblyInfo.cs
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\obj\Debug\netcoreapp2.2\array_binary_search_Tests.csproj.CopyComplete
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\obj\Debug\netcoreapp2.2\array_binary_search_Tests.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Challenges\array_binary_search\Program\array_binary_search_Tests\obj\Debug\netcoreapp2.2\array_binary_search_Tests.pdb
