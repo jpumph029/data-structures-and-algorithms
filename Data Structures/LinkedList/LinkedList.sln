@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{887AE504-23B4-43A6-9A2A-E4914C72728F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{C3712EBB-8B8C-4DC5-BD62-13B045E670A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest_LinkedList", "..\XUnitTest_LinkedList\XUnitTest_LinkedList.csproj", "{2FD03774-3BA6-4B79-9C4C-A3490A224F69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{887AE504-23B4-43A6-9A2A-E4914C72728F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{887AE504-23B4-43A6-9A2A-E4914C72728F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{887AE504-23B4-43A6-9A2A-E4914C72728F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{887AE504-23B4-43A6-9A2A-E4914C72728F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3712EBB-8B8C-4DC5-BD62-13B045E670A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3712EBB-8B8C-4DC5-BD62-13B045E670A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3712EBB-8B8C-4DC5-BD62-13B045E670A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3712EBB-8B8C-4DC5-BD62-13B045E670A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD03774-3BA6-4B79-9C4C-A3490A224F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD03774-3BA6-4B79-9C4C-A3490A224F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD03774-3BA6-4B79-9C4C-A3490A224F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD03774-3BA6-4B79-9C4C-A3490A224F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7200CA17-A719-46D0-AA93-3EDDE28C1DF4}
+		SolutionGuid = {40CB4426-30B5-49D0-970B-5493E5D4605E}
 	EndGlobalSection
 EndGlobal

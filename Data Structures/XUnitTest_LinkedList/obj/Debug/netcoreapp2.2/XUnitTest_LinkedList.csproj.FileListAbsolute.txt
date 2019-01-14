@@ -1,0 +1,17 @@
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\XUnitTest_LinkedList.deps.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\XUnitTest_LinkedList.runtimeconfig.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\XUnitTest_LinkedList.runtimeconfig.dev.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\XUnitTest_LinkedList.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\XUnitTest_LinkedList.pdb
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\LinkedList.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\bin\Debug\netcoreapp2.2\LinkedList.pdb
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\obj\Debug\netcoreapp2.2\XUnitTest_LinkedList.csprojAssemblyReference.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\obj\Debug\netcoreapp2.2\XUnitTest_LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\obj\Debug\netcoreapp2.2\XUnitTest_LinkedList.AssemblyInfoInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\obj\Debug\netcoreapp2.2\XUnitTest_LinkedList.AssemblyInfo.cs
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\obj\Debug\netcoreapp2.2\XUnitTest_LinkedList.csproj.CopyComplete
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\obj\Debug\netcoreapp2.2\XUnitTest_LinkedList.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\XUnitTest_LinkedList\obj\Debug\netcoreapp2.2\XUnitTest_LinkedList.pdb
