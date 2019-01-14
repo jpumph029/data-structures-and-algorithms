@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Challenges\\arrayShift\\Program\\Program\\Program.csproj",
-      "projectName": "Program",
-      "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Challenges\\arrayShift\\Program\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\LinkedList\\LinkedList\\LinkedList.csproj",
+      "projectName": "LinkedList",
+      "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\LinkedList\\LinkedList\\LinkedList.csproj",
       "packagesPath": "C:\\Users\\pumph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Challenges\\arrayShift\\Program\\Program\\obj\\",
+      "outputPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\LinkedList\\LinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
