@@ -12,6 +12,9 @@ namespace LinkedList
             
             Console.ReadLine();
         }
+        /// <summary>
+        /// this prints a node and 7 more from a list, this also uses Includes to see if includes worked
+        /// </summary>
         static void List()
         {
             Node node = new Node(4);

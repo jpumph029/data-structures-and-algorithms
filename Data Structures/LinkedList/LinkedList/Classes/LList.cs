@@ -6,9 +6,20 @@ namespace LinkedList.Classes
 {
     public class LList
     {
+        /// <summary>
+        /// The first node.
+        /// </summary>
         public Node Head { get; set; }
+        /// <summary>
+        /// The current node.
+        /// </summary>
         public Node Current { get; set; }
 
+        /// <summary>
+        /// Insert a node into a list
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public int Insert(int value)
         {
             Node node = new Node(value);
@@ -16,6 +27,11 @@ namespace LinkedList.Classes
             Head = node;
             return value;
         }
+        /// <summary>
+        /// Method to see if a node is included in a list
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public bool Includes(int value)
         {
             Current = Head;
@@ -33,7 +49,10 @@ namespace LinkedList.Classes
             }
                 return false;
         }
-
+        /// <summary>
+        /// Prints all nodes in a list
+        /// </summary>
+        /// <returns></returns>
         public bool Print()
         {
             Current = Head;
