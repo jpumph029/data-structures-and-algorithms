@@ -30,7 +30,7 @@ namespace LinkedList
             list.Insert(7);
             list.InsertBefore(1, 0);
             list.InsertAfter(7, 9);
-            
+            list.Append(22);
 
             Console.WriteLine($"Does 2 exist?: {list.Includes(2)}");
             Console.WriteLine($"Does 4 exist?: {list.Includes(4)}");

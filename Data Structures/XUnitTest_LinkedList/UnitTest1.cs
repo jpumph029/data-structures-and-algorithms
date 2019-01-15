@@ -124,6 +124,30 @@ namespace XUnitTest_LinkedList
             list.InsertAfter(1, 4);
             Assert.False(list.Includes(2));
         }
+        [Fact]
+        public void CanAppend()
+        {
+            LList list = new LList();
+            list.Insert(0);
+            list.Append(22);
+            Assert.True(list.Includes(22));
+        }
+        [Fact]
+        public void CanAppend4()
+        {
+            LList list = new LList();
+            list.Insert(0);
+            list.Append(4);
+            Assert.True(list.Includes(4));
+        }
+        [Fact]
+        public void CanAppendFail()
+        {
+            LList list = new LList();
+            list.Insert(0);
+            list.Append(4);
+            Assert.False(list.Includes(3));
+        }
 
     }
 }

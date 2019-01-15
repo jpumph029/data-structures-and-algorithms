@@ -55,7 +55,8 @@ namespace LinkedList.Classes
         /// <param name="value"></param>
         public void Append(int value)
         {
-            while(Current.Next != null)
+            Current = Head;
+            while (Current.Next != null)
             {
                 Current = Current.Next;
             }
