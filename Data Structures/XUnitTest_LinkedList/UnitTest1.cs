@@ -100,6 +100,30 @@ namespace XUnitTest_LinkedList
             list.InsertBefore(1, 4);
             Assert.False(list.Includes(2));
         }
+        [Fact]
+        public void CanInsterAfterFalse()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertAfter(1, 4);
+            Assert.False(list.Includes(2));
+        }
+        [Fact]
+        public void CanInsterAfter2()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertAfter(1, 2);
+            Assert.False(list.Includes(2));
+        }
+        [Fact]
+        public void CanInsterAfter4()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertAfter(1, 4);
+            Assert.False(list.Includes(2));
+        }
 
     }
 }
