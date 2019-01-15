@@ -50,6 +50,19 @@ namespace LinkedList.Classes
                 return false;
         }
         /// <summary>
+        /// Appends a node to the LL
+        /// </summary>
+        /// <param name="value"></param>
+        public void Append(int value)
+        {
+            while(Current.Next != null)
+            {
+                Current = Current.Next;
+            }
+            Node node = new Node(value);
+            Current.Next = node;
+        }
+        /// <summary>
         /// Inserts a new node before a given value
         /// </summary>
         /// <param name="value"></param>
