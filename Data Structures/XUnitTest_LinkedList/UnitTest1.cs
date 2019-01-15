@@ -68,5 +68,86 @@ namespace XUnitTest_LinkedList
             list.Insert(1);
             Assert.True(list.Print());
         }
+        [Fact]
+        public void CanInsterBefore()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 2);
+            Assert.True(list.Includes(2)); 
+        }
+        [Fact]
+        public void CanInsterBefore2()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 2);
+            Assert.True(list.Includes(2));
+        }
+        [Fact]
+        public void CanInsterBefore22()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 22);
+            Assert.True(list.Includes(22));
+        }
+        [Fact]
+        public void CanInsterBeforeFalse()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 4);
+            Assert.False(list.Includes(2));
+        }
+        [Fact]
+        public void CanInsterAfterFalse()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertAfter(1, 4);
+            Assert.False(list.Includes(2));
+        }
+        [Fact]
+        public void CanInsterAfter2()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertAfter(1, 2);
+            Assert.False(list.Includes(2));
+        }
+        [Fact]
+        public void CanInsterAfter4()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertAfter(1, 4);
+            Assert.False(list.Includes(2));
+        }
+        [Fact]
+        public void CanAppend()
+        {
+            LList list = new LList();
+            list.Insert(0);
+            list.Append(22);
+            Assert.True(list.Includes(22));
+        }
+        [Fact]
+        public void CanAppend4()
+        {
+            LList list = new LList();
+            list.Insert(0);
+            list.Append(4);
+            Assert.True(list.Includes(4));
+        }
+        [Fact]
+        public void CanAppendFail()
+        {
+            LList list = new LList();
+            list.Insert(0);
+            list.Append(4);
+            Assert.False(list.Includes(3));
+        }
+
     }
 }

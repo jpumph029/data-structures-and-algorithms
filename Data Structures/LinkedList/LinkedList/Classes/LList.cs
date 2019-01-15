@@ -50,6 +50,67 @@ namespace LinkedList.Classes
                 return false;
         }
         /// <summary>
+        /// Appends a node to the LL
+        /// </summary>
+        /// <param name="value"></param>
+        public void Append(int value)
+        {
+            Current = Head;
+            while (Current.Next != null)
+            {
+                Current = Current.Next;
+            }
+            Node node = new Node(value);
+            Current.Next = node;
+        }
+        /// <summary>
+        /// Inserts a new node before a given value
+        /// </summary>
+        /// <param name="value"></param>
+        /// <param name="newValue"></param>
+        public void InsertBefore(int value, int newValue)
+        {
+            Current = Head;
+            if (Current.Value == value)
+            {
+                Insert(newValue);
+                return;
+            }
+            while (Current.Next != null)
+            {
+                if (Current.Next.Value == value)
+                {
+                    Node node = new Node(newValue);
+                    node.Next = Current.Next;
+                    Current.Next = node;
+                    return;
+                }
+                Current = Current.Next;
+            }
+        }
+
+        /// <summary>
+        /// Insert a new node after a value
+        /// </summary>
+        /// <param name="value"></param>
+        /// <param name="newValue"></param>
+        public void InsertAfter(int value, int newValue)
+        {
+            Current = Head;
+
+            while (Current.Next != null)
+            {
+                if (Current.Value == value)
+                {
+                    Node node = new Node(newValue);
+                    node.Next = Current.Next;
+                    Current.Next = node;
+                    return;
+                }
+                Current = Current.Next;
+            }
+        }
+        /// <summary>
         /// Prints all nodes in a list
         /// </summary>
         /// <returns></returns>
@@ -58,7 +119,7 @@ namespace LinkedList.Classes
             Current = Head;
             while (Current.Next != null)
             {
-                Console.WriteLine(Current.Value);
+                Console.Write($"{Current.Value} => ");
                 Current = Current.Next;
             }
             Console.WriteLine(Current.Value);
