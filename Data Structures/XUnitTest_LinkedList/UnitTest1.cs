@@ -68,5 +68,38 @@ namespace XUnitTest_LinkedList
             list.Insert(1);
             Assert.True(list.Print());
         }
+        [Fact]
+        public void CanInsterBefore()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 2);
+            Assert.True(list.Includes(2)); 
+        }
+        [Fact]
+        public void CanInsterBefore2()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 2);
+            Assert.True(list.Includes(2));
+        }
+        [Fact]
+        public void CanInsterBefore22()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 22);
+            Assert.True(list.Includes(22));
+        }
+        [Fact]
+        public void CanInsterBeforeFalse()
+        {
+            LList list = new LList();
+            list.Insert(1);
+            list.InsertBefore(1, 4);
+            Assert.False(list.Includes(2));
+        }
+
     }
 }
