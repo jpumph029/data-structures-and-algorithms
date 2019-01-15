@@ -1,0 +1,11 @@
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\bin\Debug\netcoreapp2.2\LinkedList.deps.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\bin\Debug\netcoreapp2.2\LinkedList.runtimeconfig.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\bin\Debug\netcoreapp2.2\LinkedList.runtimeconfig.dev.json
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\bin\Debug\netcoreapp2.2\LinkedList.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\bin\Debug\netcoreapp2.2\LinkedList.pdb
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\obj\Debug\netcoreapp2.2\LinkedList.csprojAssemblyReference.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\obj\Debug\netcoreapp2.2\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\obj\Debug\netcoreapp2.2\LinkedList.AssemblyInfoInputs.cache
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\obj\Debug\netcoreapp2.2\LinkedList.AssemblyInfo.cs
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\obj\Debug\netcoreapp2.2\LinkedList.dll
+C:\Users\pumph\codefellows\401\data-structures-and-algorithms\Data Structures\LinkedList\LinkedList\obj\Debug\netcoreapp2.2\LinkedList.pdb
