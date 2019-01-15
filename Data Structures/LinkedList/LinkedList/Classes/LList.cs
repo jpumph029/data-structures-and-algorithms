@@ -87,6 +87,22 @@ namespace LinkedList.Classes
                 Current = Current.Next;
             }
         }
+        public void InsertAfter(int value, int newValue)
+        {
+            Current = Head;
+
+            while (Current.Next != null)
+            {
+                if (Current.Value == value)
+                {
+                    Node node = new Node(newValue);
+                    node.Next = Current.Next;
+                    Current.Next = node;
+                    return;
+                }
+                Current = Current.Next;
+            }
+        }
         /// <summary>
         /// Prints all nodes in a list
         /// </summary>
@@ -96,7 +112,7 @@ namespace LinkedList.Classes
             Current = Head;
             while (Current.Next != null)
             {
-                Console.WriteLine(Current.Value);
+                Console.Write($"{Current.Value} => ");
                 Current = Current.Next;
             }
             Console.WriteLine(Current.Value);
