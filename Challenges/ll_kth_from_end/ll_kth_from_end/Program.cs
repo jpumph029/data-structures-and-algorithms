@@ -3,7 +3,7 @@ using LinkedList.Classes;
 
 namespace ll_kth_from_end
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,8 +18,13 @@ namespace ll_kth_from_end
 
             KthFromEnd(3, list);
         }
-        
-        static int KthFromEnd(int k, LList list)
+        /// <summary>
+        /// Finds the Kth node from the end of end a linked list and returns the kth nodes value.
+        /// </summary>
+        /// <param name="k"></param>
+        /// <param name="list"></param>
+        /// <returns></returns>
+        public static int KthFromEnd(int k, LList list)
         {
 
             try
@@ -40,7 +45,6 @@ namespace ll_kth_from_end
                 }
                 list.Print();
                 Console.WriteLine($"K: {k}\nNode : {Current.Value}");
-                Console.Read();
                 return Current.Value;
             }
             catch (Exception)
