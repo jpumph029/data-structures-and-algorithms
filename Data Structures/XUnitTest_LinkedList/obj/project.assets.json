@@ -5874,11 +5874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\XUnitTest_LinkedList\\XUnitTest_LinkedList.csproj",
+      "projectUniqueName": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\XUnitTest_LinkedList\\XUnitTest_LinkedList.csproj",
       "projectName": "XUnitTest_LinkedList",
-      "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\XUnitTest_LinkedList\\XUnitTest_LinkedList.csproj",
+      "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\XUnitTest_LinkedList\\XUnitTest_LinkedList.csproj",
       "packagesPath": "C:\\Users\\pumph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\XUnitTest_LinkedList\\obj\\",
+      "outputPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\XUnitTest_LinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5897,8 +5897,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\LinkedList\\LinkedList\\LinkedList.csproj": {
-              "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Data Structures\\LinkedList\\LinkedList\\LinkedList.csproj"
+            "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\LinkedList\\LinkedList\\LinkedList.csproj": {
+              "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\LinkedList\\LinkedList\\LinkedList.csproj"
             }
           }
         }
