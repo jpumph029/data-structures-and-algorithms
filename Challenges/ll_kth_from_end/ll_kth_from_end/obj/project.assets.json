@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\LinkedList\\LinkedList\\LinkedList.csproj",
-      "projectName": "LinkedList",
-      "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\LinkedList\\LinkedList\\LinkedList.csproj",
+      "projectUniqueName": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Challenges\\ll_kth_from_end\\ll_kth_from_end\\ll_kth_from_end.csproj",
+      "projectName": "ll_kth_from_end",
+      "projectPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Challenges\\ll_kth_from_end\\ll_kth_from_end\\ll_kth_from_end.csproj",
       "packagesPath": "C:\\Users\\pumph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\New folder\\LinkedList\\LinkedList\\obj\\",
+      "outputPath": "C:\\Users\\pumph\\codefellows\\401\\data-structures-and-algorithms\\Challenges\\ll_kth_from_end\\ll_kth_from_end\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
