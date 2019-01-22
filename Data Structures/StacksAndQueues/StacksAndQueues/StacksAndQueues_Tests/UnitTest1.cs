@@ -82,6 +82,53 @@ namespace StacksAndQueues_Tests
  
             Assert.Equal(-12, queue.Peek().Value);
         }
+        [Fact]
+        public void CanPeakAtQeueuMore()
+        {
+            Node node = new Node(-12);
+            Queue queue = new Queue(node);
+            queue.Enqueue(-13);
+            queue.Enqueue(-13);
+            queue.Enqueue(-13);
+            queue.Enqueue(-13);
+            queue.Enqueue(-13);
+            Assert.Equal(-12, queue.Peek().Value);
+        }
+        [Fact]
+        public void CanPeakAtQeueuMorebutPositiveNumbers()
+        {
+            Node node = new Node(12);
+            Queue queue = new Queue(node);
+            queue.Enqueue(13);
+            queue.Enqueue(13);
+            queue.Enqueue(13);
+            queue.Enqueue(13);
+            queue.Enqueue(13);
+            Assert.Equal(12, queue.Peek().Value);
+        }
+        [Fact]
+        public void CanPush()
+        {
+            Stack stack = new Stack();
+            stack.Push(1);
+            Assert.Equal(1, stack.Top.Value);
+        }
+        [Fact]
+        public void CanPushMultiple()
+        {
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            Assert.Equal(3, stack.Top.Value);
+        }
+        [Fact]
+        public void CanPushNegatives()
+        {
+            Stack stack = new Stack();
+            stack.Push(-1);
+            Assert.Equal(-1, stack.Top.Value);
+        }
 
 
 
