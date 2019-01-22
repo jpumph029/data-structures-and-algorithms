@@ -129,8 +129,61 @@ namespace StacksAndQueues_Tests
             stack.Push(-1);
             Assert.Equal(-1, stack.Top.Value);
         }
-
-
+        [Fact]
+        public void CanPop()
+        {
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Pop();
+            Assert.Equal(1, stack.Top.Value);
+        }
+        [Fact]
+        public void CanPopNegative()
+        {
+            Stack stack = new Stack();
+            stack.Push(-1);
+            stack.Push(-2);
+            stack.Pop();
+            Assert.Equal(-1, stack.Top.Value);
+        }
+        [Fact]
+        public void CanPopMultiple()
+        {
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+            stack.Pop();
+            stack.Pop();
+            stack.Pop();
+            Assert.Equal(1, stack.Top.Value);
+        }
+        [Fact]
+        public void CanPeakStack()
+        {
+            Stack stack = new Stack();
+            stack.Push(1);
+            Assert.Equal(1, stack.Peek().Value);
+        }
+        [Fact]
+        public void CanPeakNegativeStack()
+        {
+            Stack stack = new Stack();
+            stack.Push(-1);
+            Assert.Equal(-1, stack.Peek().Value);
+        }
+        [Fact]
+        public void CanPeakMultipleStack()
+        {
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+            Assert.Equal(4, stack.Peek().Value);
+        }
 
     }
 }
