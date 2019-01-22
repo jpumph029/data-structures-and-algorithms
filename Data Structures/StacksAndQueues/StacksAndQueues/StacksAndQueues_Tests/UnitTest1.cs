@@ -74,6 +74,14 @@ namespace StacksAndQueues_Tests
             queue.Dequeu();
             Assert.Equal(-12, queue.Front.Value);
         }
+        [Fact]
+        public void CanPeakAtQeueu()
+        {
+            Node node = new Node(-12);
+            Queue queue = new Queue(node);
+ 
+            Assert.Equal(-12, queue.Peek().Value);
+        }
 
 
 
