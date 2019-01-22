@@ -26,6 +26,7 @@ namespace StacksAndQueues.Classes
             Rear.Next = node;
             Rear = node;
         }
+
         /// <summary>
         /// Removes a node from a queue
         /// </summary>
@@ -37,6 +38,11 @@ namespace StacksAndQueues.Classes
             temp.Next = null;
             return temp;
         }
+
+        /// <summary>
+        /// Peeks at the front node
+        /// </summary>
+        /// <returns></returns>
         public Node Peek()
         {
             return Front;
