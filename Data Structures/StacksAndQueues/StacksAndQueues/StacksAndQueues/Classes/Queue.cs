@@ -15,5 +15,34 @@ namespace StacksAndQueues.Classes
             Rear = node;
 
         }
+
+        /// <summary>
+        /// Adds a node to a que.
+        /// </summary>
+        /// <param name="value"></param>
+        public void Enqueue(int value)
+        {
+            Node node = new Node(value);
+            Rear.Next = node;
+            Rear = node;
+        }
+        /// <summary>
+        /// Removes a node from a queue
+        /// </summary>
+        /// <returns></returns>
+        public Node Dequeu()
+        {
+            Node temp = Front;
+            Front = Front.Next;
+            temp.Next = null;
+            return temp;
+        }
+        public Node Peek()
+        {
+            return Front;
+        }
+
+
+
     }
 }
