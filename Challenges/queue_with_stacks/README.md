@@ -13,4 +13,4 @@ Search: Big O Time = O(n), Space = O(n) </br>
 Insert/Delete: Big O Time = O(1), Space = O(n)</br>
 
 ## Solution
-![](/Assets/main.JPG)
+![](./Assets/main.JPG)
