@@ -31,6 +31,33 @@ namespace QueueWithStacks
             pseudoQueue.EnQueue(-1);
             Assert.Equal(-1, pseudoQueue.PQueue.Top.Value);
         }
+        [Fact]
+        public void DoesDeQueueWork()
+        {
+            PseudoQueue pseudoQueue = new PseudoQueue();
+            pseudoQueue.EnQueue(1);
+            pseudoQueue.DeQueue();
+            Assert.Null(pseudoQueue.PQueue.Top);
+        }
+        [Fact]
+        public void DoesDeQueueWorkCorrectly()
+        {
+            PseudoQueue pseudoQueue = new PseudoQueue();
+            pseudoQueue.EnQueue(1);
+            pseudoQueue.EnQueue(2);
+            pseudoQueue.EnQueue(3);
+            pseudoQueue.DeQueue();
+            Assert.Equal(1, pseudoQueue.PQueue.Top.Value);
+        }
+        [Fact]
+        public void DoesDeQueueWorkWithNegatives()
+        {
+            PseudoQueue pseudoQueue = new PseudoQueue();
+            pseudoQueue.EnQueue(-1);
+            pseudoQueue.EnQueue(-1);
+            pseudoQueue.DeQueue();
+            Assert.Equal(-1, pseudoQueue.PQueue.Top.Value);
+        }
 
     }
 }
