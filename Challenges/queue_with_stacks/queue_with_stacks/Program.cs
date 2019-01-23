@@ -14,6 +14,8 @@ namespace queue_with_stacks
             pseudoQueue.EnQueue(2);
             pseudoQueue.EnQueue(3);
             pseudoQueue.DeQueue();
+            pseudoQueue.DeQueue();
+
         }
     }
 }
