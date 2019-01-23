@@ -7,18 +7,25 @@ namespace queue_with_stacks.Classes
 {
     public class PseudoQueue
     {
+        //Property
         public Stack PQueue { get; set; }
-
+        //Constructor
         public PseudoQueue()
         {
             PQueue = new Stack();
         }
-
+        /// <summary>
+        /// Adds a node to PQueue Stack
+        /// </summary>
+        /// <param name="value"></param>
         public void EnQueue(int value)
         {
             PQueue.Push(value);
         }
-
+        /// <summary>
+        /// Removes nodes using a FIFO approach
+        /// </summary>
+        /// <returns></returns>
         public int DeQueue()
         {
             Stack stack = new Stack();
