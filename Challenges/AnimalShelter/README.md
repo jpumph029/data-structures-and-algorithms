@@ -12,4 +12,4 @@ Enqueue Time/Space: O(1)</br>
 DeQueue Time: O(n) Space: O(1)</br>
 
 ## Solution
-![](./AnimalShelter/Assets/whiteboard.JPG)
+![](./AnimalShelter/Assets/whoteboard.JPG)
