@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Trees.Class
 {
-    class BinarySearchTree
+    public class BinarySearchTree
     {
         public Node Root { get; set; }
 
@@ -23,7 +23,12 @@ namespace Trees.Class
         {
 
         }
-            
+        /// <summary>
+        /// Adds a node to the root then adds values that are smaller than the root are placed to the left, and all values that are larger than the root are placed to the right.
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public Node Add(Node root, int value)
         {
             try
@@ -64,7 +69,11 @@ namespace Trees.Class
             }
             return root;
         }
-
+        /// <summary>
+        /// Checks if a Binary Search Tree Contains a value
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public bool Contains(int value)
         {
             try

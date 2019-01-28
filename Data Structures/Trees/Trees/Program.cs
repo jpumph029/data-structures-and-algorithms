@@ -3,7 +3,7 @@ using Trees.Class;
 
 namespace Trees
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
