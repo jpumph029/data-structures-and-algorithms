@@ -58,5 +58,10 @@ namespace Tree_Tests
             tree.Add(tree.Root, 4);
             Assert.True(tree.Contains(2));
         }
+        [Fact]
+        public void DoesPreOrderWork()
+        {
+
+        }
     }
 }
