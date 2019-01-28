@@ -34,5 +34,29 @@ namespace Tree_Tests
             
             Assert.Equal(2, tree.Root.LeftChild.RightChild.Value);
         }
+        [Fact]
+        public void DoesContainWork()
+        {
+            BinarySearchTree tree = new BinarySearchTree();
+            tree.Add(tree.Root, 1);
+            Assert.True(tree.Contains(1));
+        }
+        [Fact]
+        public void DoesContainWorkIfNodeDoesntExist()
+        {
+            BinarySearchTree tree = new BinarySearchTree();
+            tree.Add(tree.Root, 1);
+            Assert.False(tree.Contains(2));
+        }
+        [Fact]
+        public void DoesContainWorkWithMultipleOtherNodesInATree()
+        {
+            BinarySearchTree tree = new BinarySearchTree();
+            tree.Add(tree.Root, 1);
+            tree.Add(tree.Root, 2);
+            tree.Add(tree.Root, 3);
+            tree.Add(tree.Root, 4);
+            Assert.True(tree.Contains(2));
+        }
     }
 }
