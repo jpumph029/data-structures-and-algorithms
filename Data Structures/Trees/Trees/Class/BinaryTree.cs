@@ -20,6 +20,28 @@ namespace Trees.Class
         }
 
 
+        public int[] PreOrder(Node root)
+        {
+            try
+            {
+                List.Add(root.Value);
+                if (root.LeftChild != null)
+                {
+                    PreOrder(root.LeftChild);
+                }
+                if (root.RightChild != null)
+                {
+                    PreOrder(root.RightChild);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return List.ToArray();
+        }
+
+
 
     }
 }
