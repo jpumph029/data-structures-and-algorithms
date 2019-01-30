@@ -1,6 +1,7 @@
 # Breadth-first
 
-## ChallengeWrite a breadth first traversal method which takes a Binary Tree as its unique input. Traverse the input tree using a Breadth-first approach; print every visited node’s value.
+## Challenge
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Traverse the input tree using a Breadth-first approach; print every visited node’s value.
 
 ## Approach & Efficiency
 Time: 0(n) 
