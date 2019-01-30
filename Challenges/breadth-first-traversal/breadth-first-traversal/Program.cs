@@ -5,7 +5,7 @@ using Trees.Class;
 
 namespace breadth_first_traversal
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -21,22 +21,32 @@ namespace breadth_first_traversal
             BinaryTree tree = new BinaryTree(node);
             BreadthFirst(tree);
         }
-        public static void BreadthFirst(BinaryTree tree)
+        public static string BreadthFirst(BinaryTree tree)
         {
-            try
-            {
+            string result = ""; 
+
                 Queue queue = new Queue();
                 if (tree.Root != null)
                 {
-                    Console.Write($"{tree.Root.Value}");
-                    queue.Enqueue(tree.Root.LeftChild);
-                    queue.Enqueue(tree.Root.RightChild);
-                    while (queue != null)
+                    result += $"{tree.Root.Value} ";
+                    Console.WriteLine($"{tree.Root.Value}");
+                    if (tree.Root.LeftChild != null)
+                    {
+                        queue.Enqueue(tree.Root.LeftChild);
+                    }
+                    if (tree.Root.RightChild != null)
+                    {
+                        queue.Enqueue(tree.Root.RightChild);
+                    }
+
+                    while (queue.Count != 0)
                     {
                         Object obj = queue.Dequeue();
                         Node node = obj as Node;
 
-                        Console.Write($"{node.Value}");
+                        Console.WriteLine($"{node.Value}");
+
+                        result += $"{node.Value} ";
 
                         if (node.LeftChild != null)
                         {
@@ -48,12 +58,7 @@ namespace breadth_first_traversal
                         }
                     }
                 }
+                return result;
             }
-            catch (Exception e)
-            {
-
-                Console.WriteLine($"\n{e.Message}");
-            }
-        }
     }
 }
