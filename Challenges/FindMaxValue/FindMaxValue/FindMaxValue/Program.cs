@@ -4,7 +4,7 @@ using Trees.Class;
 
 namespace FindMaxValue
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
