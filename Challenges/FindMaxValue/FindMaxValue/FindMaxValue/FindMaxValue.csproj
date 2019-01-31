@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="breadth-first-traversal">
+      <HintPath>..\..\..\breadth-first-traversal\breadth-first-traversal\bin\Debug\netcoreapp2.2\breadth-first-traversal.dll</HintPath>
+    </Reference>
+    <Reference Include="Trees">
+      <HintPath>..\..\..\..\Data Structures\Trees\Trees\bin\Debug\netcoreapp2.2\Trees.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
