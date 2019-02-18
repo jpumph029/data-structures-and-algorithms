@@ -26,7 +26,7 @@ namespace hashtable.Classes
         /// </summary>
         /// <param name="Key"></param>
         /// <returns>an index in the collection.</returns>
-        protected int Hash(K Key)
+        public int Hash(K Key)
         {
             int position = Key.GetHashCode() % size;
             return Math.Abs(position);
