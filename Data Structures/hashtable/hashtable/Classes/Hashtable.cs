@@ -72,7 +72,10 @@ namespace hashtable.Classes
             LinkedList<Node<K, V>> bucket = GetBucket(position);
             foreach (Node<K, V> item in bucket)
             {
-                return item.Value;
+                if (item.Key.Equals(key))
+                {
+                    return item.Value;
+                }
             }
             return default(V);
         }

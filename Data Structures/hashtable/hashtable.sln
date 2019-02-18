@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hashtable", "hashtable\hashtable.csproj", "{B968BAFD-736F-4EEC-ADA9-4ECE299E017C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hashtable-tests", "hashtable-tests\hashtable-tests.csproj", "{0D132684-7B15-42EF-AAA7-757E76EDE32E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B968BAFD-736F-4EEC-ADA9-4ECE299E017C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B968BAFD-736F-4EEC-ADA9-4ECE299E017C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B968BAFD-736F-4EEC-ADA9-4ECE299E017C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D132684-7B15-42EF-AAA7-757E76EDE32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D132684-7B15-42EF-AAA7-757E76EDE32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D132684-7B15-42EF-AAA7-757E76EDE32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D132684-7B15-42EF-AAA7-757E76EDE32E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
