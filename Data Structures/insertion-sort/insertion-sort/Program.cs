@@ -2,13 +2,12 @@
 
 namespace insertion_sort
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-
         }
-    static int[] InsertionSort(int[] inputArr)
+    public static int[] InsertionSort(int[] inputArr)
     {
             for (int i = 0; i < inputArr.Length - 1; i++)
             {
