@@ -7,6 +7,11 @@ namespace insertion_sort
         static void Main(string[] args)
         {
         }
+        /// <summary>
+        /// Sorts an array using insertion sort
+        /// </summary>
+        /// <param name="inputArr">Array</param>
+        /// <returns>the array given</returns>
     public static int[] InsertionSort(int[] inputArr)
     {
             for (int i = 0; i < inputArr.Length - 1; i++)
