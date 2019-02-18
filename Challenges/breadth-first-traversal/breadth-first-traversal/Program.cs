@@ -21,6 +21,11 @@ namespace breadth_first_traversal
             BinaryTree tree = new BinaryTree(node);
             BreadthFirst(tree);
         }
+        /// <summary>
+        /// Traverse a tree using breadth first
+        /// </summary>
+        /// <param name="tree">tree</param>
+        /// <returns></returns>
         public static string BreadthFirst(BinaryTree tree)
         {
             string result = ""; 
