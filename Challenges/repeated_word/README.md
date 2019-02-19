@@ -13,4 +13,4 @@ Time: O(1)</br>
 Space: O(nLogn)</br>
 
 ## Solution
-![](/repeated_word/Assets/ww.jpg)
+![](repeated_word/Assets/ww.jpg)
